@@ -1,9 +1,11 @@
 import React from 'react'
 import Section from "../Components/Section";
+import Header from "../Components/Header";
 
 export default function Home() {
     return (
            <>
+		   <Header />
 			<Section 
 				title="Model 3"
 				tagline="Order Online for touchless delivery"
