@@ -5,7 +5,6 @@ import Header from "../Components/Header";
 export default function Home() {
     return (
            <>
-		   <Header />
 			<Section 
 				title="Model S"
 				tagline="Order Online for touchless delivery"

@@ -12,7 +12,6 @@ export default function Section(props) {
 				<p>{props.tagline}</p>
                 {props.bg}
             </div>
-
             <div className='w-full h-44'>
                 <div className="flex justify-center w-full">
                     <button className='w-60 rounded-3xl bg-stone-800 text-white p-2 mx-3'>{props.leftBtn}</button>
