@@ -1,24 +1,30 @@
 import React from 'react'
 import Section from "../Components/Section";
-import Header from "../Components/Header";
 
 export default function Home() {
     return (
            <>
-			<Section 
-				title="Model S"
-				tagline="Order Online for touchless delivery"
-				leftBtn="Custom Order"
-				rightBtn="Existing Inventory"
-				modelImage="images/model-s.jpg"
-				arrow = {true}
-			/>
 			<Section 
 				title="Model 3"
 				tagline="Order Online for touchless delivery"
 				leftBtn="Custom Order"
 				rightBtn="Existing Inventory"
 				modelImage="images/model-3.jpg"
+				arrow = {true}
+			/>
+			<Section 
+				title="Model Y"
+				tagline="Order Online for touchless delivery"
+				leftBtn="Custom Order"
+				rightBtn="Existing Inventory"
+				modelImage="images/model-Y.jpg"
+			/>
+			<Section 
+				title="Model S"
+				tagline="Order Online for touchless delivery"
+				leftBtn="Custom Order"
+				rightBtn="Existing Inventory"
+				modelImage="images/model-s.jpg"
 			/>
 			<Section 
 				title="Model X"
@@ -26,13 +32,6 @@ export default function Home() {
 				leftBtn="Custom Order"
 				rightBtn="Existing Inventory"
 				modelImage="images/model-x.jpg"
-			/>
-			<Section 
-				title="Model Y"
-				tagline="Order Online for touchless delivery"
-				leftBtn="Custom Order"
-				rightBtn="Existing Inventory"
-				modelImage="images/model-y.jpg"
 			/>
 			<Section 
 				title="Solar Roof"
